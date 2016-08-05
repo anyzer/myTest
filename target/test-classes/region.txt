@@ -1,0 +1,12 @@
+PolygonFive;Blue
+PolygonSix;Red
+PolygonEight;Chartreuse
+default;Chocolate
+Triangle;Coral
+Rectangle;Crimson
+Trapezoidal;Green
+Moon;DarkGray
+Ellipse;DarkBlue
+Halfcircle;Pink
+Quarter;Goldenrod
+QuarterMiss;Lavender

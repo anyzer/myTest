@@ -1,0 +1,37 @@
+ Triangle;Coral = Trapezoidal;Green < PolygonFive;Blue,  Trapezoidal;Green < Triangle;Coral = PolygonFive;Blue
+ PolygonFive;Blue < Trapezoidal;Green < Triangle;Coral,  Trapezoidal;Green < PolygonFive;Blue = Triangle;Coral
+ Triangle;Coral = default;Chocolate,  default;Chocolate < Triangle;Coral
+ Rectangle;Crimson < Trapezoidal;Green < Rectangle;Crimson < Rectangle;Crimson,  Trapezoidal;Green < Rectangle;Crimson = Rectangle;Crimson < Rectangle;Crimson
+ Rectangle;Crimson < Moon;DarkGray < default;Chocolate < Rectangle;Crimson,  default;Chocolate < Moon;DarkGray < Rectangle;Crimson < Rectangle;Crimson
+ Triangle;Coral < Moon;DarkGray < Rectangle;Crimson,  Moon;DarkGray < Triangle;Coral = Rectangle;Crimson
+ PolygonFive;Blue < Moon;DarkGray < Triangle;Coral < PolygonFive;Blue,  Moon;DarkGray < PolygonFive;Blue = Triangle;Coral = PolygonFive;Blue
+ Trapezoidal;Green < Moon;DarkGray < Moon;DarkGray < Triangle;Coral,  Trapezoidal;Green < Moon;DarkGray = Moon;DarkGray < Triangle;Coral
+ PolygonFive;Blue < Moon;DarkGray < PolygonFive;Blue,  Moon;DarkGray < PolygonFive;Blue = PolygonFive;Blue
+ PolygonFive;Blue < Moon;DarkGray = Triangle;Coral < Rectangle;Crimson,  Moon;DarkGray < PolygonFive;Blue = Triangle;Coral = Rectangle;Crimson
+ Moon;DarkGray < Quarter;Goldenrod = Rectangle;Crimson < Trapezoidal;Green = Moon;DarkGray,  Trapezoidal;Green < Quarter;Goldenrod = Moon;DarkGray < Moon;DarkGray < Rectangle;Crimson
+ Moon;DarkGray < Rectangle;Crimson,  Moon;DarkGray < Rectangle;Crimson
+ PolygonFive;Blue < Triangle;Coral = Moon;DarkGray = PolygonEight;Chartreuse,  PolygonEight;Chartreuse < Moon;DarkGray < Triangle;Coral = PolygonFive;Blue
+ PolygonFive;Blue < PolygonEight;Chartreuse < Moon;DarkGray = Rectangle;Crimson,  PolygonEight;Chartreuse < Moon;DarkGray < Rectangle;Crimson = PolygonFive;Blue
+ Moon;DarkGray < Rectangle;Crimson,  Moon;DarkGray < Rectangle;Crimson
+ Moon;DarkGray < PolygonFive;Blue < Ellipse;DarkBlue < Ellipse;DarkBlue,  Moon;DarkGray < PolygonFive;Blue = Ellipse;DarkBlue < Ellipse;DarkBlue
+ PolygonEight;Chartreuse = Triangle;Coral < PolygonEight;Chartreuse = Trapezoidal;Green < Triangle;Coral,  PolygonEight;Chartreuse = PolygonEight;Chartreuse < Trapezoidal;Green < Triangle;Coral = Triangle;Coral
+ Rectangle;Crimson < Moon;DarkGray < PolygonEight;Chartreuse,  PolygonEight;Chartreuse < Moon;DarkGray < Rectangle;Crimson
+ PolygonFive;Blue < Moon;DarkGray = Rectangle;Crimson < Moon;DarkGray < Rectangle;Crimson,  Moon;DarkGray < Moon;DarkGray < Rectangle;Crimson = PolygonFive;Blue < Rectangle;Crimson
+ PolygonFive;Blue < Rectangle;Crimson < Triangle;Coral < Trapezoidal;Green,  Trapezoidal;Green < Triangle;Coral = PolygonFive;Blue < Rectangle;Crimson
+ Rectangle;Crimson < Trapezoidal;Green = PolygonFive;Blue < Moon;DarkGray < Rectangle;Crimson,  Trapezoidal;Green < Moon;DarkGray < PolygonFive;Blue = Rectangle;Crimson < Rectangle;Crimson
+ Moon;DarkGray < Triangle;Coral < Rectangle;Crimson,  Moon;DarkGray < Rectangle;Crimson = Triangle;Coral
+ Rectangle;Crimson = PolygonFive;Blue < Trapezoidal;Green < Triangle;Coral < Triangle;Coral,  Trapezoidal;Green < Triangle;Coral = PolygonFive;Blue = Triangle;Coral < Rectangle;Crimson
+ Triangle;Coral < Rectangle;Crimson,  Rectangle;Crimson = Triangle;Coral
+ Trapezoidal;Green = PolygonFive;Blue = Moon;DarkGray < Moon;DarkGray = PolygonFive;Blue,  Trapezoidal;Green < Moon;DarkGray = Moon;DarkGray < PolygonFive;Blue = PolygonFive;Blue
+ PolygonFive;Blue < Triangle;Coral < Rectangle;Crimson,  PolygonFive;Blue = Rectangle;Crimson = Triangle;Coral
+ PolygonFive;Blue = Triangle;Coral < Moon;DarkGray = Triangle;Coral,  Moon;DarkGray < Triangle;Coral = PolygonFive;Blue < Triangle;Coral
+ Trapezoidal;Green < Moon;DarkGray < Moon;DarkGray,  Trapezoidal;Green = Moon;DarkGray < Moon;DarkGray
+ Moon;DarkGray = Trapezoidal;Green < PolygonEight;Chartreuse < Triangle;Coral,  PolygonEight;Chartreuse < Trapezoidal;Green < Moon;DarkGray < Triangle;Coral
+ Triangle;Coral < Rectangle;Crimson,  Triangle;Coral = Rectangle;Crimson
+ PolygonFive;Blue < PolygonFive;Blue = Trapezoidal;Green < Rectangle;Crimson,  Trapezoidal;Green < PolygonFive;Blue = Rectangle;Crimson = PolygonFive;Blue
+ PolygonFive;Blue < Moon;DarkGray < Rectangle;Crimson,  Moon;DarkGray < PolygonFive;Blue = Rectangle;Crimson
+ Moon;DarkGray = Triangle;Coral < PolygonFive;Blue,  Moon;DarkGray < Triangle;Coral = PolygonFive;Blue
+ Moon;DarkGray < Triangle;Coral < Moon;DarkGray < PolygonFive;Blue,  Moon;DarkGray = Moon;DarkGray < Triangle;Coral = PolygonFive;Blue
+ Triangle;Coral < Halfcircle;Pink = Rectangle;Crimson = Trapezoidal;Green < Trapezoidal;Green,  Trapezoidal;Green < Trapezoidal;Green < Triangle;Coral = Rectangle;Crimson < Halfcircle;Pink
+ PolygonFive;Blue < PolygonFive;Blue < Trapezoidal;Green < Triangle;Coral = Moon;DarkGray,  Trapezoidal;Green < Moon;DarkGray < Triangle;Coral = PolygonFive;Blue < PolygonFive;Blue
+ PolygonFive;Blue = Rectangle;Crimson < Trapezoidal;Green,  Trapezoidal;Green < PolygonFive;Blue < Rectangle;Crimson

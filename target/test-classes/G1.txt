@@ -1,0 +1,38 @@
+ Ellipse;DarkBlue < default;Chocolate < PolygonFive;Blue = PolygonEight;Chartreuse,  PolygonEight;Chartreuse < default;Chocolate < PolygonFive;Blue < Ellipse;DarkBlue
+ PolygonFive;Blue < PolygonEight;Chartreuse = Ellipse;DarkBlue < PolygonSix;Red < PolygonEight;Chartreuse,  PolygonEight;Chartreuse = PolygonEight;Chartreuse < PolygonFive;Blue = PolygonSix;Red < Ellipse;DarkBlue
+ default;Chocolate < PolygonFive;Blue < PolygonFive;Blue < Ellipse;DarkBlue < default;Chocolate,  default;Chocolate = default;Chocolate < PolygonFive;Blue = PolygonFive;Blue < Ellipse;DarkBlue
+ PolygonFive;Blue < PolygonEight;Chartreuse < default;Chocolate < PolygonFive;Blue,  PolygonEight;Chartreuse < default;Chocolate < PolygonFive;Blue = PolygonFive;Blue
+ PolygonSix;Red < PolygonEight;Chartreuse,  PolygonEight;Chartreuse < PolygonSix;Red
+ default;Chocolate < PolygonFive;Blue < PolygonFive;Blue = Triangle;Coral,  default;Chocolate < PolygonFive;Blue = PolygonFive;Blue < Triangle;Coral
+ PolygonSix;Red < PolygonFive;Blue < default;Chocolate < Trapezoidal;Green,  Trapezoidal;Green < default;Chocolate < PolygonFive;Blue = PolygonSix;Red
+ PolygonFive;Blue = PolygonEight;Chartreuse < Triangle;Coral < Moon;DarkGray,  PolygonEight;Chartreuse < Moon;DarkGray < PolygonFive;Blue < Triangle;Coral
+ PolygonSix;Red < PolygonFive;Blue,  PolygonSix;Red = PolygonFive;Blue
+ default;Chocolate < PolygonSix;Red = PolygonFive;Blue < Trapezoidal;Green,  default;Chocolate = Trapezoidal;Green < PolygonSix;Red < PolygonFive;Blue
+ PolygonSix;Red < default;Chocolate < PolygonEight;Chartreuse < Ellipse;DarkBlue,  PolygonEight;Chartreuse < default;Chocolate < PolygonSix;Red < Ellipse;DarkBlue
+ Moon;DarkGray < PolygonFive;Blue < Quarter;Goldenrod < PolygonSix;Red,  Quarter;Goldenrod < Moon;DarkGray < PolygonFive;Blue < PolygonSix;Red
+ PolygonFive;Blue < default;Chocolate < PolygonSix;Red < Ellipse;DarkBlue,  default;Chocolate < PolygonFive;Blue = PolygonSix;Red < Ellipse;DarkBlue
+ PolygonFive;Blue < PolygonFive;Blue < Trapezoidal;Green < default;Chocolate,  Trapezoidal;Green = default;Chocolate < PolygonFive;Blue < PolygonFive;Blue
+ default;Chocolate < PolygonFive;Blue < PolygonSix;Red < Triangle;Coral < default;Chocolate,  default;Chocolate < default;Chocolate < PolygonSix;Red = PolygonFive;Blue < Triangle;Coral
+ PolygonSix;Red < Triangle;Coral < default;Chocolate < default;Chocolate,  default;Chocolate = default;Chocolate < PolygonSix;Red < Triangle;Coral
+ PolygonFive;Blue = PolygonEight;Chartreuse < default;Chocolate < default;Chocolate,  PolygonEight;Chartreuse = default;Chocolate < default;Chocolate < PolygonFive;Blue
+ PolygonSix;Red < PolygonFive;Blue = PolygonEight;Chartreuse < Trapezoidal;Green,  PolygonEight;Chartreuse < Trapezoidal;Green < PolygonFive;Blue = PolygonSix;Red
+ Moon;DarkGray < PolygonEight;Chartreuse,  PolygonEight;Chartreuse < Moon;DarkGray
+ PolygonFive;Blue = PolygonEight;Chartreuse < PolygonEight;Chartreuse < PolygonFive;Blue,  PolygonEight;Chartreuse = PolygonEight;Chartreuse < PolygonFive;Blue < PolygonFive;Blue
+ PolygonFive;Blue = PolygonEight;Chartreuse < Moon;DarkGray,  PolygonEight;Chartreuse < Moon;DarkGray < PolygonFive;Blue
+ default;Chocolate = PolygonEight;Chartreuse < PolygonFive;Blue < PolygonFive;Blue,  PolygonEight;Chartreuse < default;Chocolate < PolygonFive;Blue = PolygonFive;Blue
+ PolygonFive;Blue < PolygonEight;Chartreuse < PolygonFive;Blue < default;Chocolate,  PolygonEight;Chartreuse < default;Chocolate < PolygonFive;Blue < PolygonFive;Blue
+ PolygonFive;Blue < PolygonEight;Chartreuse < Ellipse;DarkBlue < PolygonEight;Chartreuse,  PolygonEight;Chartreuse = PolygonEight;Chartreuse < PolygonFive;Blue < Ellipse;DarkBlue
+ PolygonSix;Red < PolygonFive;Blue = Halfcircle;Pink,  PolygonSix;Red = PolygonFive;Blue < Halfcircle;Pink
+ PolygonEight;Chartreuse < PolygonEight;Chartreuse < default;Chocolate,  PolygonEight;Chartreuse = PolygonEight;Chartreuse < default;Chocolate
+ Rectangle;Crimson < PolygonSix;Red,  PolygonSix;Red < Rectangle;Crimson
+ PolygonSix;Red < PolygonEight;Chartreuse = PolygonFive;Blue < PolygonFive;Blue < PolygonSix;Red,  PolygonEight;Chartreuse < PolygonSix;Red < PolygonSix;Red = PolygonFive;Blue < PolygonFive;Blue
+ default;Chocolate < PolygonFive;Blue = PolygonEight;Chartreuse,  PolygonEight;Chartreuse < default;Chocolate < PolygonFive;Blue
+ Moon;DarkGray < PolygonFive;Blue = PolygonEight;Chartreuse < PolygonFive;Blue = Halfcircle;Pink,  PolygonEight;Chartreuse < Moon;DarkGray < PolygonFive;Blue = PolygonFive;Blue < Halfcircle;Pink
+ PolygonFive;Blue < PolygonEight;Chartreuse = Rectangle;Crimson < PolygonFive;Blue,  PolygonEight;Chartreuse < PolygonFive;Blue = PolygonFive;Blue < Rectangle;Crimson
+ PolygonFive;Blue < PolygonFive;Blue,  PolygonFive;Blue = PolygonFive;Blue
+ PolygonSix;Red < PolygonFive;Blue < PolygonEight;Chartreuse < PolygonFive;Blue = PolygonSix;Red,  PolygonEight;Chartreuse < PolygonSix;Red < PolygonFive;Blue = PolygonFive;Blue < PolygonSix;Red
+ PolygonSix;Red < PolygonFive;Blue < PolygonSix;Red,  PolygonSix;Red = PolygonFive;Blue < PolygonSix;Red
+ default;Chocolate = PolygonEight;Chartreuse < PolygonSix;Red,  PolygonEight;Chartreuse < default;Chocolate < PolygonSix;Red
+ PolygonFive;Blue = PolygonEight;Chartreuse < PolygonEight;Chartreuse = Quarter;Goldenrod,  PolygonEight;Chartreuse = PolygonEight;Chartreuse < Quarter;Goldenrod < PolygonFive;Blue
+ PolygonFive;Blue = PolygonEight;Chartreuse < default;Chocolate,  PolygonEight;Chartreuse < default;Chocolate < PolygonFive;Blue
+ Triangle;Coral = default;Chocolate < default;Chocolate = PolygonSix;Red,  default;Chocolate = default;Chocolate < PolygonSix;Red < Triangle;Coral
