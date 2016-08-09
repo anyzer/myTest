@@ -18,11 +18,50 @@ public class Util
   private int _nrows, _ndims; // the number of rows and dimensions
   private int _numClusters; // the number of clusters;
 
+  
+  public Util(){
+	  
+	  
+	  
+  }
+  
   // Constructor; loads records from file <fileName>. 
   // if labels do not exist, set labelname to null
 //  public Util(List<String> matrix, String labelname)
-  public Util()
+  public void Add(List<List<Double>> myData)
   {
+	  int numberOfData = myData.size();
+	  int dimension = myData.get(0).size();
+	
+	  this._nrows = numberOfData;
+	  this._ndims = 9;
+	  
+	  _data = new double [numberOfData][];
+	  for(int i = 0; i < _data.length; i++){
+		  _data[i] = new double[dimension];
+	  }
+	  
+	  
+	  for(int i = 0; i < numberOfData; i++){
+		  for(int j = 0; j < dimension; j++){
+			  
+			  _data[i][j] = myData.get(i).get(j);
+			  
+		  }
+	  }
+	  
+	  for(int i = 0; i < numberOfData; i++){
+		  for(int j = 0; j < dimension; j++){
+			  
+			  double temp = _data[i][j];
+			  System.out.print(temp + ",");
+			  
+		  }
+		  System.out.println();
+	  }
+	  
+	  
+	  System.out.println("There are " + _data.length + " data");
 	  
 //    BufferedReader reader;
 //    CSVHelper csv = new CSVHelper();
@@ -88,10 +127,10 @@ public class Util
   {
       _numClusters = numClusters;
       if (centroids !=null)
-          _centroids = centroids;
+          set_centroids(centroids);
       else{
         // randomly selected centroids
-        _centroids = new double[_numClusters][];
+        set_centroids(new double[_numClusters][]);
 
         ArrayList idx= new ArrayList();
         for (int i=0; i<numClusters; i++){
@@ -102,21 +141,21 @@ public class Util
           idx.add(c);
 
           // copy the value from _data[c]
-          _centroids[i] = new double[_ndims];
+          get_centroids()[i] = new double[_ndims];
           for (int j=0; j<_ndims; j++)
-            _centroids[i][j] = _data[c][j];
+            get_centroids()[i][j] = _data[c][j];
         }
         System.out.println("selected random centroids");
 
       }
 
-      double [][] c1 = _centroids;
+      double [][] c1 = get_centroids();
       double threshold = 0.001;
       int round=0;
 
       while (true){
         // update _centroids with the last round results
-        _centroids = c1;
+        set_centroids(c1);
 
         //assign record to the closest centroid
         _label = new int[_nrows];
@@ -127,8 +166,14 @@ public class Util
         // recompute centroids based on the assignments  
         c1 = updateCentroids();
         round ++;
-        if ((niter >0 && round >=niter) || converge(_centroids, c1, threshold))
+        if ((niter >0 && round >=niter) || converge(get_centroids(), c1, threshold))
           break;
+        
+        System.out.println(round + "th  rounds");
+        System.out.println(round + "th  rounds");
+        System.out.println("Centroids:");
+        
+        printResults();
       }
 
       System.out.println("Clustering converges at round " + round);
@@ -136,10 +181,10 @@ public class Util
 
   // find the closest centroid for the record v 
   private int closest(double [] v){
-    double mindist = dist(v, _centroids[0]);
+    double mindist = dist(v, get_centroids()[0]);
     int label =0;
     for (int i=1; i<_numClusters; i++){
-      double t = dist(v, _centroids[i]);
+      double t = dist(v, get_centroids()[i]);
       if (mindist>t){
         mindist = t;
         label = i;
@@ -213,7 +258,7 @@ public class Util
   }
   public double[][] getCentroids()
   {
-    return _centroids;
+    return get_centroids();
   }
 
   public int [] getLabel()
@@ -232,7 +277,7 @@ public class Util
       System.out.println("Centroids:");
      for (int i=0; i<_numClusters; i++){
         for(int j=0; j<_ndims; j++)
-           System.out.print(_centroids[i][j] + " ");
+           System.out.print(get_centroids()[i][j] + " ");
          System.out.println();
      }
 
@@ -246,9 +291,9 @@ public class Util
      * the provided functions and constructors.
      * 
      */
-	 Util KM = new Util();
-     KM.clustering(2, 10, null); // 2 clusters, maximum 10 iterations
-     KM.printResults();
+//	 Util KM = new Util(new List<List<Double>>()));
+//     KM.clustering(2, 10, null); // 2 clusters, maximum 10 iterations
+//     KM.printResults();
 
      /** using CSVHelper to parse strings
      CSVHelper csv = new CSVHelper();
@@ -263,4 +308,12 @@ public class Util
      */
 
   }
+
+private double [][] get_centroids() {
+	return _centroids;
+}
+
+private void set_centroids(double [][] _centroids) {
+	this._centroids = _centroids;
+}
 }

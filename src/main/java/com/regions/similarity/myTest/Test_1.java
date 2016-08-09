@@ -115,21 +115,16 @@ public class Test_1 {
 //			
 //		}
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+		System.out.println("===");
+		String attValue = "";
+		double[] temp = dataRow.attributeToDoubleArray(0);
+		for(int l = 0; l < temp.length; l++){
+			attValue = attValue + temp[l] + ",";
+		}
+		System.out.println(temp.length);
+		System.out.println(attValue);
+		System.out.println("===");
+			
 		
 		
 		
@@ -248,19 +243,22 @@ public class Test_1 {
 
 		myTwoDStringG1.readLines("src/test/resources/G1.txt", "a");
 		myTwoDStringG1.replace2DString("regionPoly", poly);
+		myTwoDStringG1.writeNew2DString("src/test/resources/group1Replaced.txt");
 		myTwoDStringG1.writeNew2DString("src/test/resources/groupReplaced.txt");
 		myTwoDStringG1.readLines("src/test/resources/region.txt", "r");
 		// myTwoDStringG1.replaceRegion("regionOne", poly);
 
 		myTwoDStringG2.readLines("src/test/resources/G2.txt", "a");
 		myTwoDStringG2.replace2DString("regionRect", rect);
-		myTwoDStringG2.writeNew2DString("src/test/resources/groupReplaced.txt");
+		myTwoDStringG2.writeNew2DString("src/test/resources/group2Replaced.txt");
+		myTwoDStringG1.writeNew2DString("src/test/resources/groupReplaced.txt");
 		myTwoDStringG2.readLines("src/test/resources/region.txt", "r");
 		// myTwoDStringG2.replaceRegion("regionTwo", rect);
 
 		myTwoDStringG3.readLines("src/test/resources/G3.txt", "a");
 		myTwoDStringG3.replace2DString("regionQuar", quar);
-		myTwoDStringG3.writeNew2DString("src/test/resources/groupReplaced.txt");
+		myTwoDStringG3.writeNew2DString("src/test/resources/group3Replaced.txt");
+		myTwoDStringG1.writeNew2DString("src/test/resources/groupReplaced.txt");
 		myTwoDStringG3.readLines("src/test/resources/region.txt", "r");
 		// myTwoDStringG3.replaceRegion("regionThree", quar);
 
