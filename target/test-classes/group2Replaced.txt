@@ -1404,3 +1404,114 @@
  regionRect < Halfcircle;Pink = Rectangle;Crimson = Trapezoidal;Green < Trapezoidal;Green,  Trapezoidal;Green < Trapezoidal;Green < regionRect = Rectangle;Crimson < Halfcircle;Pink
  PolygonFive;Blue < PolygonFive;Blue < Trapezoidal;Green < regionRect = regionRect,  Trapezoidal;Green < regionRect < regionRect = PolygonFive;Blue < PolygonFive;Blue
  PolygonFive;Blue = Rectangle;Crimson < Trapezoidal;Green,  Trapezoidal;Green < PolygonFive;Blue < Rectangle;Crimson
+ regionRect = Trapezoidal;Green < PolygonFive;Blue,  Trapezoidal;Green < regionRect = PolygonFive;Blue
+ PolygonFive;Blue < Trapezoidal;Green < regionRect,  Trapezoidal;Green < PolygonFive;Blue = regionRect
+ regionRect = default;Chocolate,  default;Chocolate < regionRect
+ Rectangle;Crimson < Trapezoidal;Green < Rectangle;Crimson < Rectangle;Crimson,  Trapezoidal;Green < Rectangle;Crimson = Rectangle;Crimson < Rectangle;Crimson
+ Rectangle;Crimson < regionRect < default;Chocolate < Rectangle;Crimson,  default;Chocolate < regionRect < Rectangle;Crimson < Rectangle;Crimson
+ regionRect < regionRect < Rectangle;Crimson,  regionRect < regionRect = Rectangle;Crimson
+ PolygonFive;Blue < regionRect < regionRect < PolygonFive;Blue,  regionRect < PolygonFive;Blue = regionRect = PolygonFive;Blue
+ Trapezoidal;Green < regionRect < regionRect < regionRect,  Trapezoidal;Green < regionRect = regionRect < regionRect
+ PolygonFive;Blue < regionRect < PolygonFive;Blue,  regionRect < PolygonFive;Blue = PolygonFive;Blue
+ PolygonFive;Blue < regionRect = regionRect < Rectangle;Crimson,  regionRect < PolygonFive;Blue = regionRect = Rectangle;Crimson
+ regionRect < Quarter;Goldenrod = Rectangle;Crimson < Trapezoidal;Green = regionRect,  Trapezoidal;Green < Quarter;Goldenrod = regionRect < regionRect < Rectangle;Crimson
+ regionRect < Rectangle;Crimson,  regionRect < Rectangle;Crimson
+ PolygonFive;Blue < regionRect = regionRect = PolygonEight;Chartreuse,  PolygonEight;Chartreuse < regionRect < regionRect = PolygonFive;Blue
+ PolygonFive;Blue < PolygonEight;Chartreuse < regionRect = Rectangle;Crimson,  PolygonEight;Chartreuse < regionRect < Rectangle;Crimson = PolygonFive;Blue
+ regionRect < Rectangle;Crimson,  regionRect < Rectangle;Crimson
+ regionRect < PolygonFive;Blue < Ellipse;DarkBlue < Ellipse;DarkBlue,  regionRect < PolygonFive;Blue = Ellipse;DarkBlue < Ellipse;DarkBlue
+ PolygonEight;Chartreuse = regionRect < PolygonEight;Chartreuse = Trapezoidal;Green < regionRect,  PolygonEight;Chartreuse = PolygonEight;Chartreuse < Trapezoidal;Green < regionRect = regionRect
+ Rectangle;Crimson < regionRect < PolygonEight;Chartreuse,  PolygonEight;Chartreuse < regionRect < Rectangle;Crimson
+ PolygonFive;Blue < regionRect = Rectangle;Crimson < regionRect < Rectangle;Crimson,  regionRect < regionRect < Rectangle;Crimson = PolygonFive;Blue < Rectangle;Crimson
+ PolygonFive;Blue < Rectangle;Crimson < regionRect < Trapezoidal;Green,  Trapezoidal;Green < regionRect = PolygonFive;Blue < Rectangle;Crimson
+ Rectangle;Crimson < Trapezoidal;Green = PolygonFive;Blue < regionRect < Rectangle;Crimson,  Trapezoidal;Green < regionRect < PolygonFive;Blue = Rectangle;Crimson < Rectangle;Crimson
+ regionRect < regionRect < Rectangle;Crimson,  regionRect < Rectangle;Crimson = regionRect
+ Rectangle;Crimson = PolygonFive;Blue < Trapezoidal;Green < regionRect < regionRect,  Trapezoidal;Green < regionRect = PolygonFive;Blue = regionRect < Rectangle;Crimson
+ regionRect < Rectangle;Crimson,  Rectangle;Crimson = regionRect
+ Trapezoidal;Green = PolygonFive;Blue = regionRect < regionRect = PolygonFive;Blue,  Trapezoidal;Green < regionRect = regionRect < PolygonFive;Blue = PolygonFive;Blue
+ PolygonFive;Blue < regionRect < Rectangle;Crimson,  PolygonFive;Blue = Rectangle;Crimson = regionRect
+ PolygonFive;Blue = regionRect < regionRect = regionRect,  regionRect < regionRect = PolygonFive;Blue < regionRect
+ Trapezoidal;Green < regionRect < regionRect,  Trapezoidal;Green = regionRect < regionRect
+ regionRect = Trapezoidal;Green < PolygonEight;Chartreuse < regionRect,  PolygonEight;Chartreuse < Trapezoidal;Green < regionRect < regionRect
+ regionRect < Rectangle;Crimson,  regionRect = Rectangle;Crimson
+ PolygonFive;Blue < PolygonFive;Blue = Trapezoidal;Green < Rectangle;Crimson,  Trapezoidal;Green < PolygonFive;Blue = Rectangle;Crimson = PolygonFive;Blue
+ PolygonFive;Blue < regionRect < Rectangle;Crimson,  regionRect < PolygonFive;Blue = Rectangle;Crimson
+ regionRect = regionRect < PolygonFive;Blue,  regionRect < regionRect = PolygonFive;Blue
+ regionRect < regionRect < regionRect < PolygonFive;Blue,  regionRect = regionRect < regionRect = PolygonFive;Blue
+ regionRect < Halfcircle;Pink = Rectangle;Crimson = Trapezoidal;Green < Trapezoidal;Green,  Trapezoidal;Green < Trapezoidal;Green < regionRect = Rectangle;Crimson < Halfcircle;Pink
+ PolygonFive;Blue < PolygonFive;Blue < Trapezoidal;Green < regionRect = regionRect,  Trapezoidal;Green < regionRect < regionRect = PolygonFive;Blue < PolygonFive;Blue
+ PolygonFive;Blue = Rectangle;Crimson < Trapezoidal;Green,  Trapezoidal;Green < PolygonFive;Blue < Rectangle;Crimson
+ regionRect = Trapezoidal;Green < PolygonFive;Blue,  Trapezoidal;Green < regionRect = PolygonFive;Blue
+ PolygonFive;Blue < Trapezoidal;Green < regionRect,  Trapezoidal;Green < PolygonFive;Blue = regionRect
+ regionRect = default;Chocolate,  default;Chocolate < regionRect
+ Rectangle;Crimson < Trapezoidal;Green < Rectangle;Crimson < Rectangle;Crimson,  Trapezoidal;Green < Rectangle;Crimson = Rectangle;Crimson < Rectangle;Crimson
+ Rectangle;Crimson < regionRect < default;Chocolate < Rectangle;Crimson,  default;Chocolate < regionRect < Rectangle;Crimson < Rectangle;Crimson
+ regionRect < regionRect < Rectangle;Crimson,  regionRect < regionRect = Rectangle;Crimson
+ PolygonFive;Blue < regionRect < regionRect < PolygonFive;Blue,  regionRect < PolygonFive;Blue = regionRect = PolygonFive;Blue
+ Trapezoidal;Green < regionRect < regionRect < regionRect,  Trapezoidal;Green < regionRect = regionRect < regionRect
+ PolygonFive;Blue < regionRect < PolygonFive;Blue,  regionRect < PolygonFive;Blue = PolygonFive;Blue
+ PolygonFive;Blue < regionRect = regionRect < Rectangle;Crimson,  regionRect < PolygonFive;Blue = regionRect = Rectangle;Crimson
+ regionRect < Quarter;Goldenrod = Rectangle;Crimson < Trapezoidal;Green = regionRect,  Trapezoidal;Green < Quarter;Goldenrod = regionRect < regionRect < Rectangle;Crimson
+ regionRect < Rectangle;Crimson,  regionRect < Rectangle;Crimson
+ PolygonFive;Blue < regionRect = regionRect = PolygonEight;Chartreuse,  PolygonEight;Chartreuse < regionRect < regionRect = PolygonFive;Blue
+ PolygonFive;Blue < PolygonEight;Chartreuse < regionRect = Rectangle;Crimson,  PolygonEight;Chartreuse < regionRect < Rectangle;Crimson = PolygonFive;Blue
+ regionRect < Rectangle;Crimson,  regionRect < Rectangle;Crimson
+ regionRect < PolygonFive;Blue < Ellipse;DarkBlue < Ellipse;DarkBlue,  regionRect < PolygonFive;Blue = Ellipse;DarkBlue < Ellipse;DarkBlue
+ PolygonEight;Chartreuse = regionRect < PolygonEight;Chartreuse = Trapezoidal;Green < regionRect,  PolygonEight;Chartreuse = PolygonEight;Chartreuse < Trapezoidal;Green < regionRect = regionRect
+ Rectangle;Crimson < regionRect < PolygonEight;Chartreuse,  PolygonEight;Chartreuse < regionRect < Rectangle;Crimson
+ PolygonFive;Blue < regionRect = Rectangle;Crimson < regionRect < Rectangle;Crimson,  regionRect < regionRect < Rectangle;Crimson = PolygonFive;Blue < Rectangle;Crimson
+ PolygonFive;Blue < Rectangle;Crimson < regionRect < Trapezoidal;Green,  Trapezoidal;Green < regionRect = PolygonFive;Blue < Rectangle;Crimson
+ Rectangle;Crimson < Trapezoidal;Green = PolygonFive;Blue < regionRect < Rectangle;Crimson,  Trapezoidal;Green < regionRect < PolygonFive;Blue = Rectangle;Crimson < Rectangle;Crimson
+ regionRect < regionRect < Rectangle;Crimson,  regionRect < Rectangle;Crimson = regionRect
+ Rectangle;Crimson = PolygonFive;Blue < Trapezoidal;Green < regionRect < regionRect,  Trapezoidal;Green < regionRect = PolygonFive;Blue = regionRect < Rectangle;Crimson
+ regionRect < Rectangle;Crimson,  Rectangle;Crimson = regionRect
+ Trapezoidal;Green = PolygonFive;Blue = regionRect < regionRect = PolygonFive;Blue,  Trapezoidal;Green < regionRect = regionRect < PolygonFive;Blue = PolygonFive;Blue
+ PolygonFive;Blue < regionRect < Rectangle;Crimson,  PolygonFive;Blue = Rectangle;Crimson = regionRect
+ PolygonFive;Blue = regionRect < regionRect = regionRect,  regionRect < regionRect = PolygonFive;Blue < regionRect
+ Trapezoidal;Green < regionRect < regionRect,  Trapezoidal;Green = regionRect < regionRect
+ regionRect = Trapezoidal;Green < PolygonEight;Chartreuse < regionRect,  PolygonEight;Chartreuse < Trapezoidal;Green < regionRect < regionRect
+ regionRect < Rectangle;Crimson,  regionRect = Rectangle;Crimson
+ PolygonFive;Blue < PolygonFive;Blue = Trapezoidal;Green < Rectangle;Crimson,  Trapezoidal;Green < PolygonFive;Blue = Rectangle;Crimson = PolygonFive;Blue
+ PolygonFive;Blue < regionRect < Rectangle;Crimson,  regionRect < PolygonFive;Blue = Rectangle;Crimson
+ regionRect = regionRect < PolygonFive;Blue,  regionRect < regionRect = PolygonFive;Blue
+ regionRect < regionRect < regionRect < PolygonFive;Blue,  regionRect = regionRect < regionRect = PolygonFive;Blue
+ regionRect < Halfcircle;Pink = Rectangle;Crimson = Trapezoidal;Green < Trapezoidal;Green,  Trapezoidal;Green < Trapezoidal;Green < regionRect = Rectangle;Crimson < Halfcircle;Pink
+ PolygonFive;Blue < PolygonFive;Blue < Trapezoidal;Green < regionRect = regionRect,  Trapezoidal;Green < regionRect < regionRect = PolygonFive;Blue < PolygonFive;Blue
+ PolygonFive;Blue = Rectangle;Crimson < Trapezoidal;Green,  Trapezoidal;Green < PolygonFive;Blue < Rectangle;Crimson
+ regionRect = Trapezoidal;Green < PolygonFive;Blue,  Trapezoidal;Green < regionRect = PolygonFive;Blue
+ PolygonFive;Blue < Trapezoidal;Green < regionRect,  Trapezoidal;Green < PolygonFive;Blue = regionRect
+ regionRect = default;Chocolate,  default;Chocolate < regionRect
+ Rectangle;Crimson < Trapezoidal;Green < Rectangle;Crimson < Rectangle;Crimson,  Trapezoidal;Green < Rectangle;Crimson = Rectangle;Crimson < Rectangle;Crimson
+ Rectangle;Crimson < regionRect < default;Chocolate < Rectangle;Crimson,  default;Chocolate < regionRect < Rectangle;Crimson < Rectangle;Crimson
+ regionRect < regionRect < Rectangle;Crimson,  regionRect < regionRect = Rectangle;Crimson
+ PolygonFive;Blue < regionRect < regionRect < PolygonFive;Blue,  regionRect < PolygonFive;Blue = regionRect = PolygonFive;Blue
+ Trapezoidal;Green < regionRect < regionRect < regionRect,  Trapezoidal;Green < regionRect = regionRect < regionRect
+ PolygonFive;Blue < regionRect < PolygonFive;Blue,  regionRect < PolygonFive;Blue = PolygonFive;Blue
+ PolygonFive;Blue < regionRect = regionRect < Rectangle;Crimson,  regionRect < PolygonFive;Blue = regionRect = Rectangle;Crimson
+ regionRect < Quarter;Goldenrod = Rectangle;Crimson < Trapezoidal;Green = regionRect,  Trapezoidal;Green < Quarter;Goldenrod = regionRect < regionRect < Rectangle;Crimson
+ regionRect < Rectangle;Crimson,  regionRect < Rectangle;Crimson
+ PolygonFive;Blue < regionRect = regionRect = PolygonEight;Chartreuse,  PolygonEight;Chartreuse < regionRect < regionRect = PolygonFive;Blue
+ PolygonFive;Blue < PolygonEight;Chartreuse < regionRect = Rectangle;Crimson,  PolygonEight;Chartreuse < regionRect < Rectangle;Crimson = PolygonFive;Blue
+ regionRect < Rectangle;Crimson,  regionRect < Rectangle;Crimson
+ regionRect < PolygonFive;Blue < Ellipse;DarkBlue < Ellipse;DarkBlue,  regionRect < PolygonFive;Blue = Ellipse;DarkBlue < Ellipse;DarkBlue
+ PolygonEight;Chartreuse = regionRect < PolygonEight;Chartreuse = Trapezoidal;Green < regionRect,  PolygonEight;Chartreuse = PolygonEight;Chartreuse < Trapezoidal;Green < regionRect = regionRect
+ Rectangle;Crimson < regionRect < PolygonEight;Chartreuse,  PolygonEight;Chartreuse < regionRect < Rectangle;Crimson
+ PolygonFive;Blue < regionRect = Rectangle;Crimson < regionRect < Rectangle;Crimson,  regionRect < regionRect < Rectangle;Crimson = PolygonFive;Blue < Rectangle;Crimson
+ PolygonFive;Blue < Rectangle;Crimson < regionRect < Trapezoidal;Green,  Trapezoidal;Green < regionRect = PolygonFive;Blue < Rectangle;Crimson
+ Rectangle;Crimson < Trapezoidal;Green = PolygonFive;Blue < regionRect < Rectangle;Crimson,  Trapezoidal;Green < regionRect < PolygonFive;Blue = Rectangle;Crimson < Rectangle;Crimson
+ regionRect < regionRect < Rectangle;Crimson,  regionRect < Rectangle;Crimson = regionRect
+ Rectangle;Crimson = PolygonFive;Blue < Trapezoidal;Green < regionRect < regionRect,  Trapezoidal;Green < regionRect = PolygonFive;Blue = regionRect < Rectangle;Crimson
+ regionRect < Rectangle;Crimson,  Rectangle;Crimson = regionRect
+ Trapezoidal;Green = PolygonFive;Blue = regionRect < regionRect = PolygonFive;Blue,  Trapezoidal;Green < regionRect = regionRect < PolygonFive;Blue = PolygonFive;Blue
+ PolygonFive;Blue < regionRect < Rectangle;Crimson,  PolygonFive;Blue = Rectangle;Crimson = regionRect
+ PolygonFive;Blue = regionRect < regionRect = regionRect,  regionRect < regionRect = PolygonFive;Blue < regionRect
+ Trapezoidal;Green < regionRect < regionRect,  Trapezoidal;Green = regionRect < regionRect
+ regionRect = Trapezoidal;Green < PolygonEight;Chartreuse < regionRect,  PolygonEight;Chartreuse < Trapezoidal;Green < regionRect < regionRect
+ regionRect < Rectangle;Crimson,  regionRect = Rectangle;Crimson
+ PolygonFive;Blue < PolygonFive;Blue = Trapezoidal;Green < Rectangle;Crimson,  Trapezoidal;Green < PolygonFive;Blue = Rectangle;Crimson = PolygonFive;Blue
+ PolygonFive;Blue < regionRect < Rectangle;Crimson,  regionRect < PolygonFive;Blue = Rectangle;Crimson
+ regionRect = regionRect < PolygonFive;Blue,  regionRect < regionRect = PolygonFive;Blue
+ regionRect < regionRect < regionRect < PolygonFive;Blue,  regionRect = regionRect < regionRect = PolygonFive;Blue
+ regionRect < Halfcircle;Pink = Rectangle;Crimson = Trapezoidal;Green < Trapezoidal;Green,  Trapezoidal;Green < Trapezoidal;Green < regionRect = Rectangle;Crimson < Halfcircle;Pink
+ PolygonFive;Blue < PolygonFive;Blue < Trapezoidal;Green < regionRect = regionRect,  Trapezoidal;Green < regionRect < regionRect = PolygonFive;Blue < PolygonFive;Blue
+ PolygonFive;Blue = Rectangle;Crimson < Trapezoidal;Green,  Trapezoidal;Green < PolygonFive;Blue < Rectangle;Crimson

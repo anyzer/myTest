@@ -16,6 +16,9 @@ public class Matrix {
 	
 	private List<List<Integer>> cooccurrance = new ArrayList<List<Integer>>();
 	
+	private String path = "src/test/resources/finalSingle.txt";
+	private String pathSup = "src/test/resources/finalSupSingle.txt";
+	
 	public Matrix(List<String> r){
 		setRegions(r);
 		setRegionsReplaced(regions);
@@ -23,20 +26,33 @@ public class Matrix {
 	}
 	
 	
-	public void createCooccurranceMatrix(List<String> regions){
+	public void createCooccurranceMatrix(List<String> regions) throws IOException{
 		
 		System.out.println(regionsReplaced);
 		
 		for(String i : regions){
 			
-			createCooccurranceVector(i);
+			createCooccurranceVector(i, -1);
+			
+		}
+		
+	}
+	
+	public void createCooccurranceMatrix(List<String> regions, int flag) throws IOException{
+		
+		System.out.println(regionsReplaced);
+		
+		for(String i : regions){
+			
+			createCooccurranceVector(i, flag);
 			
 		}
 		
 	}
 	
 	
-	public void createCooccurranceVector(String i){
+	
+	public void createCooccurranceVector(String i, int flag) throws IOException{
 		
 		List<Integer> oneVector = new ArrayList<Integer>(); 
 		System.out.println(i);
@@ -50,6 +66,10 @@ public class Matrix {
 		}
 		System.out.println(oneVector.toString());
 		getCooccurrance().add(oneVector);
+		
+		writeLine(path, oneVector.toString().replace("[", "").replace("]", ""));
+		writeLine(pathSup, oneVector.toString().replace("[", "").replace("]", "") + ", " + flag);
+		
 	}
 	
 	

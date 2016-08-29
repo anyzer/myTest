@@ -67,11 +67,11 @@ public class Test_1 {
 		System.out.println("\n===================================================");
 		System.out.println("\n");
 		
-		m.createCooccurranceMatrix(myTwoDStringG1.getaReplaced());
+		m.createCooccurranceMatrix(myTwoDStringG1.getaReplaced(), 1);
 		System.out.println("-----------------------------------------------------");
-		m.createCooccurranceMatrix(myTwoDStringG2.getaReplaced());
+		m.createCooccurranceMatrix(myTwoDStringG2.getaReplaced(), 2);
 		System.out.println("-----------------------------------------------------");
-		m.createCooccurranceMatrix(myTwoDStringG3.getaReplaced());
+		m.createCooccurranceMatrix(myTwoDStringG3.getaReplaced(), 3);
 		System.out.println("-----------------------------------------------------");
 		
 		System.out.println(m.getCooccurrance().size());

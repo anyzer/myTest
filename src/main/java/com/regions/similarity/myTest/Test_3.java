@@ -71,7 +71,7 @@ public class Test_3 {
 			createFinalV(xstring);
 			printList(finalV);
 			
-			writeLine(writePath, finalV.toString().replace("[", "").replace("]", ""));
+			writeLine(writePath, finalV.toString().replace("[", "").replace("]", "")+ ", 2");
 			
 			System.out.println("++++++++++++++++++++++++++++++++++++++++++++++++");
 			
@@ -94,7 +94,7 @@ public class Test_3 {
 			createFinalV(xstring);
 			printList(finalV);
 			
-			writeLine(writePath, finalV.toString().replace("[", "").replace("]", ""));
+			writeLine(writePath, finalV.toString().replace("[", "").replace("]", "") + ", 3");
 			
 			System.out.println("++++++++++++++++++++++++++++++++++++++++++++++++");
 			
