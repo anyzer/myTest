@@ -47,6 +47,17 @@ public class Test_1 {
 		m.replaceRegions("regionPoly", poly);
 		m.replaceRegions("regionRect", rect);
 		m.replaceRegions("regionQuar", quar);
+//		poly.add("PolygonSix;Red");// 1
+//		poly.add("PolygonEight;Chartreuse");// 0.778
+//		poly.add("default;Chocolate");// 0.774
+//
+//		rect.add("Triangle;Coral");// 0.75
+////		rect.add("Rectangle;Crimson");// 0.9285
+//		rect.add("Moon;DarkGray");// 0.7894
+//
+//		quar.add("Halfcircle;Pink");// 0.9
+//		quar.add("Quarter;Goldenrod");// 0.8965
+////		quar.add("QuarterMiss;Lavender");// 1
 		
 		System.out.println("\nFinal Regions: \n");
 		for(String reg : m.getRegionsReplaced()){
@@ -200,6 +211,9 @@ public class Test_1 {
 	
 	private static void createWekaData(Matrix m) throws IOException{
 		String path = "src/test/resources/wekaData.txt";
+		
+		String temp_path = "src/test/resources/wekaData_temp.txt";
+		
 		deleteFile(path);
 		m.writeLine(path, "@relation data");
 		m.writeLine(path, "");
@@ -218,7 +232,8 @@ public class Test_1 {
 		m.writeLine(path, "@data");
 		
 		for(List<Integer> v : m.getCooccurrance()){			
-			m.writeLine(path, v.toString().replace("[", "").replaceAll("]", ""));			
+			m.writeLine(path, v.toString().replace("[", "").replaceAll("]", ""));	
+			m.writeLine(temp_path, v.toString().replace("[", "").replaceAll("]", ""));	
 		}
 	}
 

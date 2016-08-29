@@ -36,3 +36,4 @@
  PolygonFive;Blue = PolygonEight;Chartreuse < PolygonEight;Chartreuse = Quarter;Goldenrod,  PolygonEight;Chartreuse = PolygonEight;Chartreuse < Quarter;Goldenrod < PolygonFive;Blue
  PolygonFive;Blue = PolygonEight;Chartreuse < default;Chocolate,  PolygonEight;Chartreuse < default;Chocolate < PolygonFive;Blue
  Triangle;Coral = default;Chocolate < default;Chocolate = PolygonSix;Red,  default;Chocolate = default;Chocolate < PolygonSix;Red < Triangle;Coral
+ QuarterMiss;Lavender < default;Chocolate < PolygonFive;Blue = Moon;DarkGray,  Moon;DarkGray < default;Chocolate < PolygonFive;Blue < QuarterMiss;Lavender

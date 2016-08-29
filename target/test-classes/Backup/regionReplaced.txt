@@ -1,0 +1,9 @@
+PolygonFive;Blue
+PolygonSix;Red
+regionPoly
+regionRect
+Rectangle;Crimson
+Trapezoidal;Green
+Ellipse;DarkBlue
+regionQuar
+QuarterMiss;Lavender

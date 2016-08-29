@@ -44,13 +44,12 @@ public class IndividualGroup {
 		poly.add("default;Chocolate");// 0.774
 
 		rect.add("Triangle;Coral");// 0.75
-//		rect.add("Rectangle;Crimson");// 0.9285
+//		rect.add("Rectangle;Crimson");// 0.9285synthetic
 		rect.add("Moon;DarkGray");// 0.7894
 
 		quar.add("Halfcircle;Pink");// 0.9
 		quar.add("Quarter;Goldenrod");// 0.8965
 //		quar.add("QuarterMiss;Lavender");// 1
-		
 		
 		
 		myTwoDStringG1.readLines("src/test/resources/G1.txt", "a");

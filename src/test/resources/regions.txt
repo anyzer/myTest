@@ -1,0 +1,232 @@
+Ellipse;DarkBlue < regionPoly < PolygonFive;Blue = regionPoly,  regionPoly < regionPoly < PolygonFive;Blue < Ellipse;DarkBlue
+[2, 0, 4, 0, 0, 0, 2, 0, 0]
+ PolygonFive;Blue < regionPoly = Ellipse;DarkBlue < PolygonSix;Red < regionPoly,  regionPoly = regionPoly < PolygonFive;Blue = PolygonSix;Red < Ellipse;DarkBlue
+[2, 2, 4, 0, 0, 0, 2, 0, 0]
+ regionPoly < PolygonFive;Blue < PolygonFive;Blue < Ellipse;DarkBlue < regionPoly,  regionPoly = regionPoly < PolygonFive;Blue = PolygonFive;Blue < Ellipse;DarkBlue
+[4, 0, 4, 0, 0, 0, 2, 0, 0]
+ PolygonFive;Blue < regionPoly < regionPoly < PolygonFive;Blue,  regionPoly < regionPoly < PolygonFive;Blue = PolygonFive;Blue
+[4, 0, 4, 0, 0, 0, 0, 0, 0]
+ PolygonSix;Red < regionPoly,  regionPoly < PolygonSix;Red
+[0, 2, 2, 0, 0, 0, 0, 0, 0]
+ regionPoly < PolygonFive;Blue < PolygonFive;Blue = Triangle;Coral,  regionPoly < PolygonFive;Blue = PolygonFive;Blue < Triangle;Coral
+[4, 0, 2, 0, 0, 0, 0, 0, 0]
+ PolygonSix;Red < PolygonFive;Blue < regionPoly < Trapezoidal;Green,  Trapezoidal;Green < regionPoly < PolygonFive;Blue = PolygonSix;Red
+[2, 2, 2, 0, 0, 2, 0, 0, 0]
+ PolygonFive;Blue = regionPoly < Triangle;Coral < Moon;DarkGray,  regionPoly < Moon;DarkGray < PolygonFive;Blue < Triangle;Coral
+[2, 0, 2, 0, 0, 0, 0, 0, 0]
+ PolygonSix;Red < PolygonFive;Blue,  PolygonSix;Red = PolygonFive;Blue
+[2, 2, 0, 0, 0, 0, 0, 0, 0]
+ regionPoly < PolygonSix;Red = PolygonFive;Blue < Trapezoidal;Green,  regionPoly = Trapezoidal;Green < PolygonSix;Red < PolygonFive;Blue
+[2, 2, 2, 0, 0, 2, 0, 0, 0]
+ PolygonSix;Red < regionPoly < regionPoly < Ellipse;DarkBlue,  regionPoly < regionPoly < PolygonSix;Red < Ellipse;DarkBlue
+[0, 2, 4, 0, 0, 0, 2, 0, 0]
+ Moon;DarkGray < PolygonFive;Blue < Quarter;Goldenrod < PolygonSix;Red,  Quarter;Goldenrod < Moon;DarkGray < PolygonFive;Blue < PolygonSix;Red
+[2, 2, 0, 0, 0, 0, 0, 0, 0]
+ PolygonFive;Blue < regionPoly < PolygonSix;Red < Ellipse;DarkBlue,  regionPoly < PolygonFive;Blue = PolygonSix;Red < Ellipse;DarkBlue
+[2, 2, 2, 0, 0, 0, 2, 0, 0]
+ PolygonFive;Blue < PolygonFive;Blue < Trapezoidal;Green < regionPoly,  Trapezoidal;Green = regionPoly < PolygonFive;Blue < PolygonFive;Blue
+[4, 0, 2, 0, 0, 2, 0, 0, 0]
+ regionPoly < PolygonFive;Blue < PolygonSix;Red < Triangle;Coral < regionPoly,  regionPoly < regionPoly < PolygonSix;Red = PolygonFive;Blue < Triangle;Coral
+[2, 2, 4, 0, 0, 0, 0, 0, 0]
+ PolygonSix;Red < Triangle;Coral < regionPoly < regionPoly,  regionPoly = regionPoly < PolygonSix;Red < Triangle;Coral
+[0, 2, 4, 0, 0, 0, 0, 0, 0]
+ PolygonFive;Blue = regionPoly < regionPoly < regionPoly,  regionPoly = regionPoly < regionPoly < PolygonFive;Blue
+[2, 0, 6, 0, 0, 0, 0, 0, 0]
+ PolygonSix;Red < PolygonFive;Blue = regionPoly < Trapezoidal;Green,  regionPoly < Trapezoidal;Green < PolygonFive;Blue = PolygonSix;Red
+[2, 2, 2, 0, 0, 2, 0, 0, 0]
+ Moon;DarkGray < regionPoly,  regionPoly < Moon;DarkGray
+[0, 0, 2, 0, 0, 0, 0, 0, 0]
+ PolygonFive;Blue = regionPoly < regionPoly < PolygonFive;Blue,  regionPoly = regionPoly < PolygonFive;Blue < PolygonFive;Blue
+[4, 0, 4, 0, 0, 0, 0, 0, 0]
+ PolygonFive;Blue = regionPoly < Moon;DarkGray,  regionPoly < Moon;DarkGray < PolygonFive;Blue
+[2, 0, 2, 0, 0, 0, 0, 0, 0]
+ regionPoly = regionPoly < PolygonFive;Blue < PolygonFive;Blue,  regionPoly < regionPoly < PolygonFive;Blue = PolygonFive;Blue
+[4, 0, 4, 0, 0, 0, 0, 0, 0]
+ PolygonFive;Blue < regionPoly < PolygonFive;Blue < regionPoly,  regionPoly < regionPoly < PolygonFive;Blue < PolygonFive;Blue
+[4, 0, 4, 0, 0, 0, 0, 0, 0]
+ PolygonFive;Blue < regionPoly < Ellipse;DarkBlue < regionPoly,  regionPoly = regionPoly < PolygonFive;Blue < Ellipse;DarkBlue
+[2, 0, 4, 0, 0, 0, 2, 0, 0]
+ PolygonSix;Red < PolygonFive;Blue = Halfcircle;Pink,  PolygonSix;Red = PolygonFive;Blue < Halfcircle;Pink
+[2, 2, 0, 0, 0, 0, 0, 0, 0]
+ regionPoly < regionPoly < regionPoly,  regionPoly = regionPoly < regionPoly
+[0, 0, 6, 0, 0, 0, 0, 0, 0]
+ Rectangle;Crimson < PolygonSix;Red,  PolygonSix;Red < Rectangle;Crimson
+[0, 2, 0, 0, 2, 0, 0, 0, 0]
+ PolygonSix;Red < regionPoly = PolygonFive;Blue < PolygonFive;Blue < PolygonSix;Red,  regionPoly < PolygonSix;Red < PolygonSix;Red = PolygonFive;Blue < PolygonFive;Blue
+[4, 4, 2, 0, 0, 0, 0, 0, 0]
+ regionPoly < PolygonFive;Blue = regionPoly,  regionPoly < regionPoly < PolygonFive;Blue
+[2, 0, 4, 0, 0, 0, 0, 0, 0]
+ Moon;DarkGray < PolygonFive;Blue = regionPoly < PolygonFive;Blue = Halfcircle;Pink,  regionPoly < Moon;DarkGray < PolygonFive;Blue = PolygonFive;Blue < Halfcircle;Pink
+[4, 0, 2, 0, 0, 0, 0, 0, 0]
+ PolygonFive;Blue < regionPoly = Rectangle;Crimson < PolygonFive;Blue,  regionPoly < PolygonFive;Blue = PolygonFive;Blue < Rectangle;Crimson
+[4, 0, 2, 0, 2, 0, 0, 0, 0]
+ PolygonFive;Blue < PolygonFive;Blue,  PolygonFive;Blue = PolygonFive;Blue
+[4, 0, 0, 0, 0, 0, 0, 0, 0]
+ PolygonSix;Red < PolygonFive;Blue < regionPoly < PolygonFive;Blue = PolygonSix;Red,  regionPoly < PolygonSix;Red < PolygonFive;Blue = PolygonFive;Blue < PolygonSix;Red
+[4, 4, 2, 0, 0, 0, 0, 0, 0]
+ PolygonSix;Red < PolygonFive;Blue < PolygonSix;Red,  PolygonSix;Red = PolygonFive;Blue < PolygonSix;Red
+[2, 4, 0, 0, 0, 0, 0, 0, 0]
+ regionPoly = regionPoly < PolygonSix;Red,  regionPoly < regionPoly < PolygonSix;Red
+[0, 2, 4, 0, 0, 0, 0, 0, 0]
+ PolygonFive;Blue = regionPoly < regionPoly = Quarter;Goldenrod,  regionPoly = regionPoly < Quarter;Goldenrod < PolygonFive;Blue
+[2, 0, 4, 0, 0, 0, 0, 0, 0]
+ PolygonFive;Blue = regionPoly < regionPoly,  regionPoly < regionPoly < PolygonFive;Blue
+[2, 0, 4, 0, 0, 0, 0, 0, 0]
+ Triangle;Coral = regionPoly < regionPoly = PolygonSix;Red,  regionPoly = regionPoly < PolygonSix;Red < Triangle;Coral
+[0, 2, 4, 0, 0, 0, 0, 0, 0]
+ QuarterMiss;Lavender < regionPoly < PolygonFive;Blue = Moon;DarkGray,  Moon;DarkGray < regionPoly < PolygonFive;Blue < QuarterMiss;Lavender
+[2, 0, 2, 0, 0, 0, 0, 0, 2]
+[PolygonFive;Blue, PolygonSix;Red, regionPoly, regionRect, Rectangle;Crimson, Trapezoidal;Green, Ellipse;DarkBlue, regionQuar, QuarterMiss;Lavender]
+ regionRect = Trapezoidal;Green < PolygonFive;Blue,  Trapezoidal;Green < regionRect = PolygonFive;Blue
+[2, 0, 0, 2, 0, 2, 0, 0, 0]
+ PolygonFive;Blue < Trapezoidal;Green < regionRect,  Trapezoidal;Green < PolygonFive;Blue = regionRect
+[2, 0, 0, 2, 0, 2, 0, 0, 0]
+ regionRect = default;Chocolate,  default;Chocolate < regionRect
+[0, 0, 0, 2, 0, 0, 0, 0, 0]
+ Rectangle;Crimson < Trapezoidal;Green < Rectangle;Crimson < Rectangle;Crimson,  Trapezoidal;Green < Rectangle;Crimson = Rectangle;Crimson < Rectangle;Crimson
+[0, 0, 0, 0, 6, 2, 0, 0, 0]
+ Rectangle;Crimson < regionRect < default;Chocolate < Rectangle;Crimson,  default;Chocolate < regionRect < Rectangle;Crimson < Rectangle;Crimson
+[0, 0, 0, 2, 4, 0, 0, 0, 0]
+ regionRect < regionRect < Rectangle;Crimson,  regionRect < regionRect = Rectangle;Crimson
+[0, 0, 0, 4, 2, 0, 0, 0, 0]
+ PolygonFive;Blue < regionRect < regionRect < PolygonFive;Blue,  regionRect < PolygonFive;Blue = regionRect = PolygonFive;Blue
+[4, 0, 0, 4, 0, 0, 0, 0, 0]
+ Trapezoidal;Green < regionRect < regionRect < regionRect,  Trapezoidal;Green < regionRect = regionRect < regionRect
+[0, 0, 0, 6, 0, 2, 0, 0, 0]
+ PolygonFive;Blue < regionRect < PolygonFive;Blue,  regionRect < PolygonFive;Blue = PolygonFive;Blue
+[4, 0, 0, 2, 0, 0, 0, 0, 0]
+ PolygonFive;Blue < regionRect = regionRect < Rectangle;Crimson,  regionRect < PolygonFive;Blue = regionRect = Rectangle;Crimson
+[2, 0, 0, 4, 2, 0, 0, 0, 0]
+ regionRect < Quarter;Goldenrod = Rectangle;Crimson < Trapezoidal;Green = regionRect,  Trapezoidal;Green < Quarter;Goldenrod = regionRect < regionRect < Rectangle;Crimson
+[0, 0, 0, 4, 2, 2, 0, 0, 0]
+ regionRect < Rectangle;Crimson,  regionRect < Rectangle;Crimson
+[0, 0, 0, 2, 2, 0, 0, 0, 0]
+ PolygonFive;Blue < regionRect = regionRect = PolygonEight;Chartreuse,  PolygonEight;Chartreuse < regionRect < regionRect = PolygonFive;Blue
+[2, 0, 0, 4, 0, 0, 0, 0, 0]
+ PolygonFive;Blue < PolygonEight;Chartreuse < regionRect = Rectangle;Crimson,  PolygonEight;Chartreuse < regionRect < Rectangle;Crimson = PolygonFive;Blue
+[2, 0, 0, 2, 2, 0, 0, 0, 0]
+ regionRect < Rectangle;Crimson,  regionRect < Rectangle;Crimson
+[0, 0, 0, 2, 2, 0, 0, 0, 0]
+ regionRect < PolygonFive;Blue < Ellipse;DarkBlue < Ellipse;DarkBlue,  regionRect < PolygonFive;Blue = Ellipse;DarkBlue < Ellipse;DarkBlue
+[2, 0, 0, 2, 0, 0, 4, 0, 0]
+ PolygonEight;Chartreuse = regionRect < PolygonEight;Chartreuse = Trapezoidal;Green < regionRect,  PolygonEight;Chartreuse = PolygonEight;Chartreuse < Trapezoidal;Green < regionRect = regionRect
+[0, 0, 0, 4, 0, 2, 0, 0, 0]
+ Rectangle;Crimson < regionRect < PolygonEight;Chartreuse,  PolygonEight;Chartreuse < regionRect < Rectangle;Crimson
+[0, 0, 0, 2, 2, 0, 0, 0, 0]
+ PolygonFive;Blue < regionRect = Rectangle;Crimson < regionRect < Rectangle;Crimson,  regionRect < regionRect < Rectangle;Crimson = PolygonFive;Blue < Rectangle;Crimson
+[2, 0, 0, 4, 4, 0, 0, 0, 0]
+ PolygonFive;Blue < Rectangle;Crimson < regionRect < Trapezoidal;Green,  Trapezoidal;Green < regionRect = PolygonFive;Blue < Rectangle;Crimson
+[2, 0, 0, 2, 2, 2, 0, 0, 0]
+ Rectangle;Crimson < Trapezoidal;Green = PolygonFive;Blue < regionRect < Rectangle;Crimson,  Trapezoidal;Green < regionRect < PolygonFive;Blue = Rectangle;Crimson < Rectangle;Crimson
+[2, 0, 0, 2, 4, 2, 0, 0, 0]
+ regionRect < regionRect < Rectangle;Crimson,  regionRect < Rectangle;Crimson = regionRect
+[0, 0, 0, 4, 2, 0, 0, 0, 0]
+ Rectangle;Crimson = PolygonFive;Blue < Trapezoidal;Green < regionRect < regionRect,  Trapezoidal;Green < regionRect = PolygonFive;Blue = regionRect < Rectangle;Crimson
+[2, 0, 0, 4, 2, 2, 0, 0, 0]
+ regionRect < Rectangle;Crimson,  Rectangle;Crimson = regionRect
+[0, 0, 0, 2, 2, 0, 0, 0, 0]
+ Trapezoidal;Green = PolygonFive;Blue = regionRect < regionRect = PolygonFive;Blue,  Trapezoidal;Green < regionRect = regionRect < PolygonFive;Blue = PolygonFive;Blue
+[4, 0, 0, 4, 0, 2, 0, 0, 0]
+ PolygonFive;Blue < regionRect < Rectangle;Crimson,  PolygonFive;Blue = Rectangle;Crimson = regionRect
+[2, 0, 0, 2, 2, 0, 0, 0, 0]
+ PolygonFive;Blue = regionRect < regionRect = regionRect,  regionRect < regionRect = PolygonFive;Blue < regionRect
+[2, 0, 0, 6, 0, 0, 0, 0, 0]
+ Trapezoidal;Green < regionRect < regionRect,  Trapezoidal;Green = regionRect < regionRect
+[0, 0, 0, 4, 0, 2, 0, 0, 0]
+ regionRect = Trapezoidal;Green < PolygonEight;Chartreuse < regionRect,  PolygonEight;Chartreuse < Trapezoidal;Green < regionRect < regionRect
+[0, 0, 0, 4, 0, 2, 0, 0, 0]
+ regionRect < Rectangle;Crimson,  regionRect = Rectangle;Crimson
+[0, 0, 0, 2, 2, 0, 0, 0, 0]
+ PolygonFive;Blue < PolygonFive;Blue = Trapezoidal;Green < Rectangle;Crimson,  Trapezoidal;Green < PolygonFive;Blue = Rectangle;Crimson = PolygonFive;Blue
+[4, 0, 0, 0, 2, 2, 0, 0, 0]
+ PolygonFive;Blue < regionRect < Rectangle;Crimson,  regionRect < PolygonFive;Blue = Rectangle;Crimson
+[2, 0, 0, 2, 2, 0, 0, 0, 0]
+ regionRect = regionRect < PolygonFive;Blue,  regionRect < regionRect = PolygonFive;Blue
+[2, 0, 0, 4, 0, 0, 0, 0, 0]
+ regionRect < regionRect < regionRect < PolygonFive;Blue,  regionRect = regionRect < regionRect = PolygonFive;Blue
+[2, 0, 0, 6, 0, 0, 0, 0, 0]
+ regionRect < Halfcircle;Pink = Rectangle;Crimson = Trapezoidal;Green < Trapezoidal;Green,  Trapezoidal;Green < Trapezoidal;Green < regionRect = Rectangle;Crimson < Halfcircle;Pink
+[0, 0, 0, 2, 2, 4, 0, 0, 0]
+ PolygonFive;Blue < PolygonFive;Blue < Trapezoidal;Green < regionRect = regionRect,  Trapezoidal;Green < regionRect < regionRect = PolygonFive;Blue < PolygonFive;Blue
+[4, 0, 0, 4, 0, 2, 0, 0, 0]
+ PolygonFive;Blue = Rectangle;Crimson < Trapezoidal;Green,  Trapezoidal;Green < PolygonFive;Blue < Rectangle;Crimson
+[2, 0, 0, 0, 2, 2, 0, 0, 0]
+[PolygonFive;Blue, PolygonSix;Red, regionPoly, regionRect, Rectangle;Crimson, Trapezoidal;Green, Ellipse;DarkBlue, regionQuar, QuarterMiss;Lavender]
+ regionQuar < QuarterMiss;Lavender < Moon;DarkGray,  Moon;DarkGray < regionQuar < QuarterMiss;Lavender
+[0, 0, 0, 0, 0, 0, 0, 2, 2]
+ Triangle;Coral < regionQuar < Ellipse;DarkBlue,  regionQuar < Triangle;Coral = Ellipse;DarkBlue
+[0, 0, 0, 0, 0, 0, 2, 2, 0]
+ QuarterMiss;Lavender < regionQuar < QuarterMiss;Lavender,  regionQuar < QuarterMiss;Lavender = QuarterMiss;Lavender
+[0, 0, 0, 0, 0, 0, 0, 2, 4]
+ regionQuar < PolygonFive;Blue,  PolygonFive;Blue < regionQuar
+[2, 0, 0, 0, 0, 0, 0, 2, 0]
+ regionQuar < PolygonFive;Blue < Ellipse;DarkBlue,  PolygonFive;Blue = Ellipse;DarkBlue < regionQuar
+[2, 0, 0, 0, 0, 0, 2, 2, 0]
+ regionQuar < regionQuar < Ellipse;DarkBlue,  regionQuar < Ellipse;DarkBlue < regionQuar
+[0, 0, 0, 0, 0, 0, 2, 4, 0]
+ PolygonFive;Blue < QuarterMiss;Lavender = Trapezoidal;Green,  Trapezoidal;Green < QuarterMiss;Lavender < PolygonFive;Blue
+[2, 0, 0, 0, 0, 2, 0, 0, 2]
+ regionQuar < PolygonFive;Blue = regionQuar < QuarterMiss;Lavender,  regionQuar < QuarterMiss;Lavender < PolygonFive;Blue < regionQuar
+[2, 0, 0, 0, 0, 0, 0, 4, 2]
+ PolygonFive;Blue < regionQuar < QuarterMiss;Lavender < Ellipse;DarkBlue = Moon;DarkGray,  Moon;DarkGray < regionQuar < QuarterMiss;Lavender < Ellipse;DarkBlue = PolygonFive;Blue
+[2, 0, 0, 0, 0, 0, 2, 2, 2]
+ PolygonFive;Blue < QuarterMiss;Lavender = Ellipse;DarkBlue,  QuarterMiss;Lavender < PolygonFive;Blue = Ellipse;DarkBlue
+[2, 0, 0, 0, 0, 0, 2, 0, 2]
+ default;Chocolate < QuarterMiss;Lavender,  default;Chocolate < QuarterMiss;Lavender
+[0, 0, 0, 0, 0, 0, 0, 0, 2]
+ regionQuar = Moon;DarkGray < regionQuar < Ellipse;DarkBlue,  regionQuar = Moon;DarkGray < Ellipse;DarkBlue < regionQuar
+[0, 0, 0, 0, 0, 0, 2, 4, 0]
+ PolygonFive;Blue < regionQuar = QuarterMiss;Lavender,  regionQuar < QuarterMiss;Lavender < PolygonFive;Blue
+[2, 0, 0, 0, 0, 0, 0, 2, 2]
+ PolygonFive;Blue < PolygonFive;Blue = regionQuar = default;Chocolate < Ellipse;DarkBlue,  default;Chocolate < regionQuar < Ellipse;DarkBlue = PolygonFive;Blue = PolygonFive;Blue
+[4, 0, 0, 0, 0, 0, 2, 2, 0]
+ PolygonFive;Blue < Triangle;Coral = regionQuar,  regionQuar < Triangle;Coral = PolygonFive;Blue
+[2, 0, 0, 0, 0, 0, 0, 2, 0]
+ regionQuar < regionQuar < QuarterMiss;Lavender = Ellipse;DarkBlue < regionQuar,  regionQuar < QuarterMiss;Lavender < regionQuar = Ellipse;DarkBlue < regionQuar
+[0, 0, 0, 0, 0, 0, 2, 6, 2]
+ regionQuar < regionQuar < QuarterMiss;Lavender = Ellipse;DarkBlue < regionQuar,  regionQuar = regionQuar < QuarterMiss;Lavender < regionQuar = Ellipse;DarkBlue
+[0, 0, 0, 0, 0, 0, 2, 6, 2]
+ regionQuar < PolygonFive;Blue = regionQuar,  regionQuar < PolygonFive;Blue < regionQuar
+[2, 0, 0, 0, 0, 0, 0, 4, 0]
+ regionQuar < QuarterMiss;Lavender,  QuarterMiss;Lavender < regionQuar
+[0, 0, 0, 0, 0, 0, 0, 2, 2]
+ regionQuar = PolygonFive;Blue,  regionQuar < PolygonFive;Blue
+[2, 0, 0, 0, 0, 0, 0, 2, 0]
+ PolygonFive;Blue < regionQuar < QuarterMiss;Lavender < Trapezoidal;Green,  Trapezoidal;Green < QuarterMiss;Lavender < PolygonFive;Blue < regionQuar
+[2, 0, 0, 0, 0, 2, 0, 2, 2]
+ regionQuar < QuarterMiss;Lavender < QuarterMiss;Lavender = Trapezoidal;Green,  Trapezoidal;Green < QuarterMiss;Lavender = QuarterMiss;Lavender < regionQuar
+[0, 0, 0, 0, 0, 2, 0, 2, 4]
+ regionQuar < PolygonEight;Chartreuse = regionQuar,  PolygonEight;Chartreuse < regionQuar < regionQuar
+[0, 0, 0, 0, 0, 0, 0, 4, 0]
+ regionQuar < PolygonEight;Chartreuse = regionQuar,  PolygonEight;Chartreuse < regionQuar = regionQuar
+[0, 0, 0, 0, 0, 0, 0, 4, 0]
+ Ellipse;DarkBlue < regionQuar = PolygonFive;Blue < default;Chocolate < Trapezoidal;Green,  Trapezoidal;Green = default;Chocolate < regionQuar < PolygonFive;Blue < Ellipse;DarkBlue
+[2, 0, 0, 0, 0, 2, 2, 2, 0]
+ regionQuar < regionQuar,  regionQuar < regionQuar
+[0, 0, 0, 0, 0, 0, 0, 4, 0]
+ Trapezoidal;Green = default;Chocolate = Ellipse;DarkBlue,  Trapezoidal;Green < default;Chocolate < Ellipse;DarkBlue
+[0, 0, 0, 0, 0, 2, 2, 0, 0]
+ regionQuar < Ellipse;DarkBlue = QuarterMiss;Lavender,  regionQuar < QuarterMiss;Lavender < Ellipse;DarkBlue
+[0, 0, 0, 0, 0, 0, 2, 2, 2]
+ PolygonFive;Blue < regionQuar < QuarterMiss;Lavender,  QuarterMiss;Lavender < PolygonFive;Blue < regionQuar
+[2, 0, 0, 0, 0, 0, 0, 2, 2]
+ PolygonFive;Blue = regionQuar < Ellipse;DarkBlue,  PolygonFive;Blue = Ellipse;DarkBlue < regionQuar
+[2, 0, 0, 0, 0, 0, 2, 2, 0]
+ PolygonFive;Blue < regionQuar < Ellipse;DarkBlue,  Ellipse;DarkBlue = PolygonFive;Blue < regionQuar
+[2, 0, 0, 0, 0, 0, 2, 2, 0]
+ PolygonFive;Blue = regionQuar < regionQuar,  regionQuar < PolygonFive;Blue < regionQuar
+[2, 0, 0, 0, 0, 0, 0, 4, 0]
+ PolygonFive;Blue = regionQuar < Ellipse;DarkBlue,  regionQuar < PolygonFive;Blue = Ellipse;DarkBlue
+[2, 0, 0, 0, 0, 0, 2, 2, 0]
+ regionQuar < regionQuar < regionQuar < QuarterMiss;Lavender,  regionQuar = regionQuar < QuarterMiss;Lavender < regionQuar
+[0, 0, 0, 0, 0, 0, 0, 6, 2]
+ regionQuar < regionQuar < default;Chocolate < regionQuar,  default;Chocolate < regionQuar < regionQuar = regionQuar
+[0, 0, 0, 0, 0, 0, 0, 6, 0]
+ regionQuar < regionQuar = PolygonFive;Blue < QuarterMiss;Lavender < regionQuar,  regionQuar < QuarterMiss;Lavender < PolygonFive;Blue = regionQuar < regionQuar
+[2, 0, 0, 0, 0, 0, 0, 6, 2]
+ Trapezoidal;Green = regionQuar < regionQuar < Ellipse;DarkBlue = QuarterMiss;Lavender,  Trapezoidal;Green < regionQuar = regionQuar < QuarterMiss;Lavender < Ellipse;DarkBlue
+[0, 0, 0, 0, 0, 2, 2, 4, 2]
+ Ellipse;DarkBlue < QuarterMiss;Lavender < Triangle;Coral,  QuarterMiss;Lavender < Triangle;Coral < Ellipse;DarkBlue
+[0, 0, 0, 0, 0, 0, 2, 0, 2]
+ PolygonFive;Blue < regionQuar < Trapezoidal;Green < Ellipse;DarkBlue,  Trapezoidal;Green < PolygonFive;Blue = Ellipse;DarkBlue < regionQuar
+[2, 0, 0, 0, 0, 2, 2, 2, 0]
