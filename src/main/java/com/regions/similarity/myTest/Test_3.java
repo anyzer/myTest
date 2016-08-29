@@ -25,9 +25,10 @@ public class Test_3 {
 		String writePath = "src/test/resources/finalSup.txt";
 		deleteFile(writePath);
 		
-		String pathR1 = "src/test/resources/R1.txt";
-		String pathR2 = "src/test/resources/R2.txt";
-		String pathR3 = "src/test/resources/R3.txt";
+		String pathR1 = "src/test/resources/G1.txt";
+		String pathR2 = "src/test/resources/G2.txt";
+		String pathR3 = "src/test/resources/G3.txt";
+		
 		readLines(pathR1);
 		System.out.println("=== There are " + str.size() + " data ===");
 		for(String s : str){
@@ -159,6 +160,7 @@ public class Test_3 {
 			
 		}
 		
+		
 		for(int i = 0; i < rs.size(); i++){
 //			occ = new ArrayList<Integer>();
 			occ.add(temp[i]);
@@ -252,15 +254,31 @@ public class Test_3 {
 	
 	
 	private static void initial(){
+		
 		rs.add("PolygonFive;Blue");
 		rs.add("PolygonSix;Red");
-		rs.add("regionPoly");
-		rs.add("regionRect");
+		rs.add("PolygonEight;Chartreuse");
+		rs.add("default;Chocolate");
+		
+		rs.add("Triangle;Coral");
 		rs.add("Rectangle;Crimson");
 		rs.add("Trapezoidal;Green");
+		rs.add("Moon;DarkGray");
+		
 		rs.add("Ellipse;DarkBlue");
-		rs.add("regionQuar");
+		rs.add("Halfcircle;Pink");
+		rs.add("Quarter;Goldenrod");
 		rs.add("QuarterMiss;Lavender");
+		
+//		rs.add("PolygonFive;Blue");
+//		rs.add("PolygonSix;Red");
+//		rs.add("regionPoly");
+//		rs.add("regionRect");
+//		rs.add("Rectangle;Crimson");
+//		rs.add("Trapezoidal;Green");
+//		rs.add("Ellipse;DarkBlue");
+//		rs.add("regionQuar");
+//		rs.add("QuarterMiss;Lavender");
 
 //		rs.add("A");
 //		rs.add("B");

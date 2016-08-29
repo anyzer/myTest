@@ -14,18 +14,22 @@ import java.util.List;
 
 public class Test_2 {
 	
-	public static List<String> str = new ArrayList<String>(); 
-	
+	public static List<String> str = new ArrayList<String>(); 	
 	public static List<String> rs = new ArrayList<String>();
-
 	public static List<Integer> finalV = new ArrayList<Integer>();
 	
 	public static void main(String[] args) throws IOException {
 		//建立pair wise
 		
-		String pathR1 = "src/test/resources/R1.txt";
-		String pathR2 = "src/test/resources/R2.txt";
-		String pathR3 = "src/test/resources/R3.txt";
+		String pathR1 = "src/test/resources/G1.txt";
+		String pathR2 = "src/test/resources/G2.txt";
+		String pathR3 = "src/test/resources/G3.txt";
+//		String pathR1 = "src/test/resources/R1.txt";
+//		String pathR2 = "src/test/resources/R2.txt";
+//		String pathR3 = "src/test/resources/R3.txt";
+		//R1.txt is for replaced regions
+		//G1.txt is for original regions
+		
 		readLines(pathR1);
 		readLines(pathR2);
 		readLines(pathR3);
@@ -220,14 +224,44 @@ public class Test_2 {
 	private static void initial(){
 		rs.add("PolygonFive;Blue");
 		rs.add("PolygonSix;Red");
-		rs.add("regionPoly");
-		rs.add("regionRect");
+		rs.add("PolygonEight;Chartreuse");
+		rs.add("default;Chocolate");
+		
+		rs.add("Triangle;Coral");
 		rs.add("Rectangle;Crimson");
 		rs.add("Trapezoidal;Green");
+		rs.add("Moon;DarkGray");
+		
 		rs.add("Ellipse;DarkBlue");
-		rs.add("regionQuar");
+		rs.add("Halfcircle;Pink");
+		rs.add("Quarter;Goldenrod");
 		rs.add("QuarterMiss;Lavender");
+		
+//		PolygonFive;Blue
+//		PolygonSix;Red
+//		PolygonEight;Chartreuse
+//		default;Chocolate
+		
+//		Triangle;Coral
+//		Rectangle;Crimson
+//		Trapezoidal;Green
+//		Moon;DarkGray
+		
+//		Ellipse;DarkBlue
+//		Halfcircle;Pink
+//		Quarter;Goldenrod
+//		QuarterMiss;Lavender
 
+//		rs.add("PolygonFive;Blue");
+//		rs.add("PolygonSix;Red");
+//		rs.add("regionPoly");
+//		rs.add("regionRect");
+//		rs.add("Rectangle;Crimson");
+//		rs.add("Trapezoidal;Green");
+//		rs.add("Ellipse;DarkBlue");
+//		rs.add("regionQuar");
+//		rs.add("QuarterMiss;Lavender");
+		
 //		rs.add("A");
 //		rs.add("B");
 //		rs.add("C");

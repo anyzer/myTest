@@ -27,7 +27,7 @@ import weka.core.Instances;
 import weka.filters.Filter;
 import weka.filters.unsupervised.attribute.Normalize;
 
-public class Test_1 {
+public class Test_1_1 {
 
 	public static HigherOrderBoVW myTwoDStringG1 = new HigherOrderBoVW();
 	public static HigherOrderBoVW myTwoDStringG2 = new HigherOrderBoVW();
@@ -44,20 +44,10 @@ public class Test_1 {
 		// region is ready
 
 		Matrix m = new Matrix(myTwoDStringG1.getR());
-		m.replaceRegions("regionPoly", poly);
-		m.replaceRegions("regionRect", rect);
-		m.replaceRegions("regionQuar", quar);
-//		poly.add("PolygonSix;Red");// 1
-//		poly.add("PolygonEight;Chartreuse");// 0.778
-//		poly.add("default;Chocolate");// 0.774
-//
-//		rect.add("Triangle;Coral");// 0.75
-////		rect.add("Rectangle;Crimson");// 0.9285
-//		rect.add("Moon;DarkGray");// 0.7894
-//
-//		quar.add("Halfcircle;Pink");// 0.9
-//		quar.add("Quarter;Goldenrod");// 0.8965
-////		quar.add("QuarterMiss;Lavender");// 1
+//		m.replaceRegions("regionPoly", poly);
+//		m.replaceRegions("regionRect", rect);
+//		m.replaceRegions("regionQuar", quar);
+
 		
 		System.out.println("\nFinal Regions: \n");
 		for(String reg : m.getRegionsReplaced()){
@@ -67,81 +57,62 @@ public class Test_1 {
 		System.out.println("\n===================================================");
 		System.out.println("\n");
 		
-		m.createCooccurranceMatrix(myTwoDStringG1.getaReplaced(), 1);
+		m.createCooccurranceMatrix(myTwoDStringG1.getA(), 1);
 		System.out.println("-----------------------------------------------------");
-		m.createCooccurranceMatrix(myTwoDStringG2.getaReplaced(), 2);
+		m.createCooccurranceMatrix(myTwoDStringG2.getA(), 2);
 		System.out.println("-----------------------------------------------------");
-		m.createCooccurranceMatrix(myTwoDStringG3.getaReplaced(), 3);
+		m.createCooccurranceMatrix(myTwoDStringG3.getA(), 3);
 		System.out.println("-----------------------------------------------------");
 		
-		System.out.println(m.getCooccurrance().size());
-		System.out.println(m.getCooccurrance().get(0).size());
-		
-		createWekaData(m);
-		
-		BufferedReader datafile = readDataFile("src/test/resources/wekaData.txt");
-		
-		Instances dataRow = new Instances(datafile);
-		
-		Normalize norm = new Normalize();
-		norm.setInputFormat(dataRow);
-		Instances data = Filter.useFilter(dataRow, norm);
-		
-//		data.setClassIndex(data.numAttributes() - 1);
-		
-		SimpleKMeans kmeans = new SimpleKMeans();
-		kmeans.setSeed(6);
-		kmeans.setPreserveInstancesOrder(true);
-		kmeans.setNumClusters(3);
-		
-		kmeans.buildClusterer(data);
-		
-		int[] assignments = kmeans.getAssignments();
-		 
-		int i=0;
-		for(int clusterNum : assignments) {
-		    System.out.printf("Instance %d -> Cluster %d \n", i, clusterNum);
-		    i++;
-		}
-		
-		System.out.println("-------");
-		
-		Instances centroids = kmeans.getClusterCentroids();
-		
-		centroids.setClassIndex(centroids.numAttributes() - 1);
-
-		System.out.println("Centroids " + centroids);
-
-		//use the centorid as input for evaluate class
-		
-//		Instance g1 = centroids.instance(0);
-//		System.out.println(g1);
-//				
-//		List<Instance> group1 = new ArrayList<Instance>();
-//		for(int l = 0; l < 40; l++){
-//			
-//			Instance temp = new Instance(1);
-//			temp.setValue("vector", m.getCooccurrance().get(i));
-//			group1.add();
-//			
+//		System.out.println(m.getCooccurrance().size());
+//		System.out.println(m.getCooccurrance().get(0).size());
+//		
+//		createWekaData(m);
+//		
+//		BufferedReader datafile = readDataFile("src/test/resources/wekaData.txt");
+//		
+//		Instances dataRow = new Instances(datafile);
+//		
+//		Normalize norm = new Normalize();
+//		norm.setInputFormat(dataRow);
+//		Instances data = Filter.useFilter(dataRow, norm);
+//		
+////		data.setClassIndex(data.numAttributes() - 1);
+//		
+//		SimpleKMeans kmeans = new SimpleKMeans();
+//		kmeans.setSeed(6);
+//		kmeans.setPreserveInstancesOrder(true);
+//		kmeans.setNumClusters(3);
+//		
+//		kmeans.buildClusterer(data);
+//		
+//		int[] assignments = kmeans.getAssignments();
+//		 
+//		int i=0;
+//		for(int clusterNum : assignments) {
+//		    System.out.printf("Instance %d -> Cluster %d \n", i, clusterNum);
+//		    i++;
 //		}
-		
-		System.out.println("===");
-		String attValue = "";
-		double[] temp = dataRow.attributeToDoubleArray(0);
-		for(int l = 0; l < temp.length; l++){
-			attValue = attValue + temp[l] + ",";
-		}
-		System.out.println(temp.length);
-		System.out.println(attValue);
-		System.out.println("===");
-			
-		
-		
-		
-		
-		
-		
+//		
+//		System.out.println("-------");
+//		
+//		Instances centroids = kmeans.getClusterCentroids();
+//		
+//		centroids.setClassIndex(centroids.numAttributes() - 1);
+//
+//		System.out.println("Centroids " + centroids);
+//	
+//		System.out.println("===");
+//		String attValue = "";
+//		double[] temp = dataRow.attributeToDoubleArray(0);
+//		for(int l = 0; l < temp.length; l++){
+//			attValue = attValue + temp[l] + ",";
+//		}
+//		System.out.println(temp.length);
+//		System.out.println(attValue);
+//		System.out.println("===");
+//	
+//		
 	}
 
 //==========================================================================================	

@@ -38,6 +38,7 @@ public class Matrix {
 		
 	}
 	
+	
 	public void createCooccurranceMatrix(List<String> regions, int flag) throws IOException{
 		
 		System.out.println(regionsReplaced);
@@ -49,7 +50,6 @@ public class Matrix {
 		}
 		
 	}
-	
 	
 	
 	public void createCooccurranceVector(String i, int flag) throws IOException{

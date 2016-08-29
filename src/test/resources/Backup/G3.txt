@@ -1,0 +1,39 @@
+ Quarter;Goldenrod < QuarterMiss;Lavender < Moon;DarkGray,  Moon;DarkGray < Quarter;Goldenrod < QuarterMiss;Lavender
+ Triangle;Coral < Quarter;Goldenrod < Ellipse;DarkBlue,  Quarter;Goldenrod < Triangle;Coral = Ellipse;DarkBlue
+ QuarterMiss;Lavender < Quarter;Goldenrod < QuarterMiss;Lavender,  Quarter;Goldenrod < QuarterMiss;Lavender = QuarterMiss;Lavender
+ Halfcircle;Pink < PolygonFive;Blue,  PolygonFive;Blue < Halfcircle;Pink
+ Halfcircle;Pink < PolygonFive;Blue < Ellipse;DarkBlue,  PolygonFive;Blue = Ellipse;DarkBlue < Halfcircle;Pink
+ Halfcircle;Pink < Quarter;Goldenrod < Ellipse;DarkBlue,  Quarter;Goldenrod < Ellipse;DarkBlue < Halfcircle;Pink
+ PolygonFive;Blue < QuarterMiss;Lavender = Trapezoidal;Green,  Trapezoidal;Green < QuarterMiss;Lavender < PolygonFive;Blue
+ Halfcircle;Pink < PolygonFive;Blue = Quarter;Goldenrod < QuarterMiss;Lavender,  Quarter;Goldenrod < QuarterMiss;Lavender < PolygonFive;Blue < Halfcircle;Pink
+ PolygonFive;Blue < Quarter;Goldenrod < QuarterMiss;Lavender < Ellipse;DarkBlue = Moon;DarkGray,  Moon;DarkGray < Quarter;Goldenrod < QuarterMiss;Lavender < Ellipse;DarkBlue = PolygonFive;Blue
+ PolygonFive;Blue < QuarterMiss;Lavender = Ellipse;DarkBlue,  QuarterMiss;Lavender < PolygonFive;Blue = Ellipse;DarkBlue
+ default;Chocolate < QuarterMiss;Lavender,  default;Chocolate < QuarterMiss;Lavender
+ Halfcircle;Pink = Moon;DarkGray < Quarter;Goldenrod < Ellipse;DarkBlue,  Quarter;Goldenrod = Moon;DarkGray < Ellipse;DarkBlue < Halfcircle;Pink
+ PolygonFive;Blue < Quarter;Goldenrod = QuarterMiss;Lavender,  Quarter;Goldenrod < QuarterMiss;Lavender < PolygonFive;Blue
+ PolygonFive;Blue < PolygonFive;Blue = Quarter;Goldenrod = default;Chocolate < Ellipse;DarkBlue,  default;Chocolate < Quarter;Goldenrod < Ellipse;DarkBlue = PolygonFive;Blue = PolygonFive;Blue
+ PolygonFive;Blue < Triangle;Coral = Quarter;Goldenrod,  Quarter;Goldenrod < Triangle;Coral = PolygonFive;Blue
+ Halfcircle;Pink < Quarter;Goldenrod < QuarterMiss;Lavender = Ellipse;DarkBlue < Halfcircle;Pink,  Quarter;Goldenrod < QuarterMiss;Lavender < Halfcircle;Pink = Ellipse;DarkBlue < Halfcircle;Pink
+ Quarter;Goldenrod < Quarter;Goldenrod < QuarterMiss;Lavender = Ellipse;DarkBlue < Halfcircle;Pink,  Quarter;Goldenrod = Quarter;Goldenrod < QuarterMiss;Lavender < Halfcircle;Pink = Ellipse;DarkBlue
+ Halfcircle;Pink < PolygonFive;Blue = Quarter;Goldenrod,  Quarter;Goldenrod < PolygonFive;Blue < Halfcircle;Pink
+ Halfcircle;Pink < QuarterMiss;Lavender,  QuarterMiss;Lavender < Halfcircle;Pink
+ Quarter;Goldenrod = PolygonFive;Blue,  Quarter;Goldenrod < PolygonFive;Blue
+ PolygonFive;Blue < Halfcircle;Pink < QuarterMiss;Lavender < Trapezoidal;Green,  Trapezoidal;Green < QuarterMiss;Lavender < PolygonFive;Blue < Halfcircle;Pink
+ Halfcircle;Pink < QuarterMiss;Lavender < QuarterMiss;Lavender = Trapezoidal;Green,  Trapezoidal;Green < QuarterMiss;Lavender = QuarterMiss;Lavender < Halfcircle;Pink
+ Halfcircle;Pink < PolygonEight;Chartreuse = Quarter;Goldenrod,  PolygonEight;Chartreuse < Quarter;Goldenrod < Halfcircle;Pink
+ Halfcircle;Pink < PolygonEight;Chartreuse = Halfcircle;Pink,  PolygonEight;Chartreuse < Halfcircle;Pink = Halfcircle;Pink
+ Ellipse;DarkBlue < Quarter;Goldenrod = PolygonFive;Blue < default;Chocolate < Trapezoidal;Green,  Trapezoidal;Green = default;Chocolate < Quarter;Goldenrod < PolygonFive;Blue < Ellipse;DarkBlue
+ Halfcircle;Pink < Quarter;Goldenrod,  Quarter;Goldenrod < Halfcircle;Pink
+ Trapezoidal;Green = default;Chocolate = Ellipse;DarkBlue,  Trapezoidal;Green < default;Chocolate < Ellipse;DarkBlue
+ Quarter;Goldenrod < Ellipse;DarkBlue = QuarterMiss;Lavender,  Quarter;Goldenrod < QuarterMiss;Lavender < Ellipse;DarkBlue
+ PolygonFive;Blue < Halfcircle;Pink < QuarterMiss;Lavender,  QuarterMiss;Lavender < PolygonFive;Blue < Halfcircle;Pink
+ PolygonFive;Blue = Halfcircle;Pink < Ellipse;DarkBlue,  PolygonFive;Blue = Ellipse;DarkBlue < Halfcircle;Pink
+ PolygonFive;Blue < Halfcircle;Pink < Ellipse;DarkBlue,  Ellipse;DarkBlue = PolygonFive;Blue < Halfcircle;Pink
+ PolygonFive;Blue = Halfcircle;Pink < Quarter;Goldenrod,  Quarter;Goldenrod < PolygonFive;Blue < Halfcircle;Pink
+ PolygonFive;Blue = Quarter;Goldenrod < Ellipse;DarkBlue,  Quarter;Goldenrod < PolygonFive;Blue = Ellipse;DarkBlue
+ Quarter;Goldenrod < Halfcircle;Pink < Quarter;Goldenrod < QuarterMiss;Lavender,  Quarter;Goldenrod = Quarter;Goldenrod < QuarterMiss;Lavender < Halfcircle;Pink
+ Halfcircle;Pink < Halfcircle;Pink < default;Chocolate < Halfcircle;Pink,  default;Chocolate < Halfcircle;Pink < Halfcircle;Pink = Halfcircle;Pink
+ Halfcircle;Pink < Quarter;Goldenrod = PolygonFive;Blue < QuarterMiss;Lavender < Halfcircle;Pink,  Quarter;Goldenrod < QuarterMiss;Lavender < PolygonFive;Blue = Halfcircle;Pink < Halfcircle;Pink
+ Trapezoidal;Green = Quarter;Goldenrod < Quarter;Goldenrod < Ellipse;DarkBlue = QuarterMiss;Lavender,  Trapezoidal;Green < Quarter;Goldenrod = Quarter;Goldenrod < QuarterMiss;Lavender < Ellipse;DarkBlue
+ Ellipse;DarkBlue < QuarterMiss;Lavender < Triangle;Coral,  QuarterMiss;Lavender < Triangle;Coral < Ellipse;DarkBlue
+ PolygonFive;Blue < Halfcircle;Pink < Trapezoidal;Green < Ellipse;DarkBlue,  Trapezoidal;Green < PolygonFive;Blue = Ellipse;DarkBlue < Halfcircle;Pink
